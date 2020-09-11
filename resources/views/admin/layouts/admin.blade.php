@@ -27,8 +27,8 @@
     {{-- Site wrapper --}}
     <div class="wrapper" id="app">
         {{-- Top navbar --}}
-        @include('partials.page-components.menu._admin-lte-top-navbar')
-        @include('partials.page-components.menu._admin-lte-sidebar')
+        @include('admin.partials.page-components.menu._admin-lte-top-navbar')
+        @include('admin.partials.page-components.menu._admin-lte-sidebar')
 
         {{-- Content --}}
         <div class="content-wrapper p-2">
@@ -37,10 +37,10 @@
     </div>
 
     {{-- Footer --}}
-    @include('partials.page-components._footer')
+    @include('admin.partials.page-components._footer')
 
     {{-- JS --}}
-    @include('partials._app-js')
+    @include('admin.partials._app-js')
 
     @yield('main-script')
 

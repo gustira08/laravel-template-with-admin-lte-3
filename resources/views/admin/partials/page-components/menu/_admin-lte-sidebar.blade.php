@@ -24,6 +24,6 @@
             </div>
         </div>
 
-        @include('partials.page-components.menu._admin-lte-sidebar-menu')
+        @include('admin.partials.page-components.menu._admin-lte-sidebar-menu')
     </div>
 </aside>

@@ -1,6 +1,6 @@
 <nav class="mt-2">
     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-        @include('components.menu.nav-item', [
+        @include('admin.components.menu.nav-item', [
             'text' =>  __('Dashboard'),
             'href' => route('home'),
             'active' => 'home*',

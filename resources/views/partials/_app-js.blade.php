@@ -1,3 +1,3 @@
 @section('main-script')
-    <script src="{{ mix('admin/js/admin.js') }}"></script>
+    <script src="{{ mix('js/app.js') }}"></script>
 @endsection
