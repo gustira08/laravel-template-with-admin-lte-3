@@ -21,7 +21,7 @@
     <style> </style>
 
     <!-- Styles -->
-    <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
+    <link href="{{ mix('admin/css/admin.css') }}" rel="stylesheet">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed" style="height: auto;">
     {{-- Site wrapper --}}
@@ -49,7 +49,6 @@
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
-
 
     @yield('script')
 </body>

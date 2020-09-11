@@ -22,7 +22,7 @@
             <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                 <li class="user-header bg-primary">
                     <img
-                        src="{{ asset('images/user-default.png') }}"
+                        src="{{ asset('admin/images/user-default.png') }}"
                         class="img-circle elevation-2"
                         alt="Profile Image"
                     >

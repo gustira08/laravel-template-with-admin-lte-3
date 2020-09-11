@@ -1,7 +1,7 @@
 <aside class="main-sidebar elevation-4 sidebar-light-primary">
     <!-- Brand Logo -->
     <a href="{{ route('home') }}" class="brand-link">
-        <img src="{{ asset('images/AdminLTELogo.png') }}"
+        <img src="{{ asset('admin/images/AdminLTELogo.png') }}"
             alt="Koderak Logo"
             class="brand-image img-circle elevation-3"
             style="opacity: .8"
@@ -13,7 +13,7 @@
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
                 <img
-                    src="{{ asset('images/user-default.png') }}"
+                    src="{{ asset('admin/images/user-default.png') }}"
                     class="img-circle elevation-2" alt="User Image"
                 >
             </div>
