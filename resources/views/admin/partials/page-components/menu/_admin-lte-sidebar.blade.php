@@ -1,6 +1,6 @@
 <aside class="main-sidebar elevation-4 sidebar-light-primary">
     <!-- Brand Logo -->
-    <a href="{{ route('home') }}" class="brand-link">
+    <a href="{{ route('admin.home') }}" class="brand-link">
         <img src="{{ asset('admin/images/AdminLTELogo.png') }}"
             alt="Koderak Logo"
             class="brand-image img-circle elevation-3"

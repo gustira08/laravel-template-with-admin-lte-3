@@ -20,4 +20,8 @@ Route::get('/', function () {
 // Authentications
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::name('admin.')
+    ->prefix('admin')
+    ->group(function () {
+        Route::get('/dashboard', 'HomeController@index')->name('home');
+    });
