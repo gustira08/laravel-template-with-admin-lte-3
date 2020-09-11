@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/icheck-bootstrap@3.0.1/icheck-bootstrap.min.css">
 
     <!-- Styles -->
-    <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
+    <link href="{{ mix('admin/css/admin.css') }}" rel="stylesheet">
 </head>
 <body class="hold-transition login-page">
     <div class="login-box">
@@ -29,7 +29,7 @@
                 <div class="login-logo mb-4">
                     <a href="{{ route('login') }}">
                         <img
-                            src="{{ asset('images/AdminLTELogo.png') }}"
+                            src="{{ asset('admin/images/AdminLTELogo.png') }}"
                             alt="logo"
                             style="width:30%;height:auto;"
                         >
@@ -122,6 +122,6 @@
         </div>
     </div>
 
-    @include('partials._app-js')
+    @include('admin.partials._app-js')
 </body>
 </html>
